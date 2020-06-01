@@ -9,8 +9,16 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var animate = false
     var body: some View {
-        Text("Hello, World!")
+        VStack {
+            LoaderView(animate: $animate)
+            Button(action: {
+                self.animate.toggle()
+            }) {
+                Text(animate ? "Stop": "Start")
+            }
+        }
     }
 }
 

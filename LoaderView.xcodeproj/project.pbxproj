@@ -13,6 +13,7 @@
 		304238EB248542CE0038059A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 304238EA248542CE0038059A /* Assets.xcassets */; };
 		304238EE248542CE0038059A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 304238ED248542CE0038059A /* Preview Assets.xcassets */; };
 		304238F1248542CE0038059A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 304238EF248542CE0038059A /* LaunchScreen.storyboard */; };
+		304238FB24854AF80038059A /* LoaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304238FA24854AF80038059A /* LoaderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		304238ED248542CE0038059A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		304238F0248542CE0038059A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		304238F2248542CE0038059A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		304238FA24854AF80038059A /* LoaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoaderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				304238E4248542CC0038059A /* AppDelegate.swift */,
 				304238E6248542CC0038059A /* SceneDelegate.swift */,
 				304238E8248542CC0038059A /* ContentView.swift */,
+				304238FA24854AF80038059A /* LoaderView.swift */,
 				304238EA248542CE0038059A /* Assets.xcassets */,
 				304238EF248542CE0038059A /* LaunchScreen.storyboard */,
 				304238F2248542CE0038059A /* Info.plist */,
@@ -147,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				304238E5248542CC0038059A /* AppDelegate.swift in Sources */,
+				304238FB24854AF80038059A /* LoaderView.swift in Sources */,
 				304238E7248542CC0038059A /* SceneDelegate.swift in Sources */,
 				304238E9248542CC0038059A /* ContentView.swift in Sources */,
 			);
